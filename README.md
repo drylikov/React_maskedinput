@@ -90,7 +90,7 @@ var CustomInput = React.createClass({
 
 The masking pattern to be applied to the `<input>`.
 
-See the [inputmask-core docs](https://github.com/insin/inputmask-core#pattern) for supported formatting characters.
+See the [inputmask-core docs](https://github.com/drylikov/Inputmask_core?tab=readme-ov-file#pattern) for supported formatting characters.
 
 ### `onChange` : `(event: SyntheticEvent) => any`
 
@@ -104,13 +104,13 @@ This will be passed a `SyntheticEvent` with the input accessible via `event.targ
 
 Customised format character definitions for use in the pattern.
 
-See the [inputmask-core docs](https://github.com/insin/inputmask-core#formatcharacters) for details of the structure of this object.
+See the [inputmask-core docs](https://github.com/drylikov/Inputmask_core?tab=readme-ov-file#formatcharacters) for details of the structure of this object.
 
 ### `placeholderChar`: `string`
 
 Customised placeholder character used to fill in editable parts of the pattern.
 
-See the [inputmask-core docs](https://github.com/insin/inputmask-core#placeholderchar--string) for details.
+See the [inputmask-core docs](https://github.com/drylikov/Inputmask_core?tab=readme-ov-file#placeholderchar--string) for details.
 
 ### `value` : `string`
 
@@ -130,5 +130,3 @@ Any other props passed in will be passed as props to the rendered `<input>`, exc
 
 * `maxLength` - will always be equal to the pattern's `.length`
 * `onKeyDown`, `onKeyPress` & `onPaste` - will each trigger a call to `onChange` when necessary
-
-## MIT Licensed
