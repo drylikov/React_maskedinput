@@ -20,9 +20,6 @@ npm install react-maskedinput --save
 
 The browser bundle exposes a global `MaskedInput` variable and expects to find a global `React` (>= 0.14.0) variable to work with.
 
-* [react-maskedinput.js](https://unpkg.com/react-maskedinput/umd/react-maskedinput.js) (development version)
-* [react-maskedinput.min.js](https://unpkg.com/react-maskedinput/umd/react-maskedinput.min.js) (compressed production version)
-
 ## Usage
 
 Give `MaskedInput` a [`mask`](#mask-string) and an `onChange` callback:
