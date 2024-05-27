@@ -1,0 +1,47 @@
+{
+  "name": "@zeit/react-maskedinput",
+  "version": "4.0.1",
+  "description": "Masked <input/> React component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "lint": "eslint src tests",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "posttest": "npm run lint",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "inputmask-core": "^2.1.1",
+    "prop-types": "^15.5.7"
+  },
+  "peerDependencies": {
+    "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-jonnybuchanan": "5.0.x",
+    "nwb": "0.17.x",
+    "react": "15.x",
+    "react-dom": "15.x"
+  },
+  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
+  "homepage": "https://github.com/insin/react-maskedinput",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/insin/react-maskedinput.git"
+  },
+  "keywords": [
+    "react",
+    "masked",
+    "input",
+    "react-component"
+  ]
+}
