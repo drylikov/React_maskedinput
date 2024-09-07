@@ -13,7 +13,7 @@ A [React](http://facebook.github.io/react/) component for `<input>` masking, bui
 `MaskedInput` can be used on the server, or bundled for the client using an npm-compatible packaging system such as [Browserify](http://browserify.org/) or [webpack](http://webpack.github.io/).
 
 ```
-npm install react-maskedinput --save
+npm install React_maskedinput --save
 ```
 
 ### Browser bundle
@@ -26,7 +26,7 @@ Give `MaskedInput` a [`mask`](#mask-string) and an `onChange` callback:
 
 ```javascript
 var React = require('react')
-var MaskedInput = require('react-maskedinput')
+var MaskedInput = require('React_maskedinput')
 
 var CreditCardDetails = React.createClass({
   state: {
